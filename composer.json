@@ -1,0 +1,20 @@
+{
+	"name": "Bad Pasword && Stupid Pasword",
+	"description": "List of 100 000 back list stupid password",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Lizandro Conde",
+			"email": "lizandroconde@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"BadPassword\\": "BadPassword/"
+		}
+	},
+	"require": {
+		"pleonasm/bloom-filter": "1.0.2",
+		"php": ">=7.2.9"
+	}
+}
